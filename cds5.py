@@ -97,12 +97,11 @@ def treegetpos(G, root):
         dm1=dm1+1
     return posit
 
-#positions=treegetpos(H,root)
-#
-#nx.draw(H, pos=positions, with_labels=1, node_size=3,  width=.2, font_size=8)
-#plt.show()
-#
-#plt.savefig('edges.png')
+positions=treegetpos(H,root)
+
+nx.draw(H, pos=positions, with_labels=1, node_size=3,  width=.2, font_size=8)
+plt.show()
+plt.savefig('edges.png')
 #
 
 
